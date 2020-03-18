@@ -26,7 +26,7 @@
       <!-- body의 요소 중 하나로 가장 위에 있으며 웹사이트 이름, 
         글로벌 링크(어디서든 접근 가능한 링크) 등으로 구성되어 있다. -->
       <div class="header__header-column">
-        <a href="more.html" class="header_back-btn">
+        <a href="index.html" class="header_back-btn">
           <i class="fas fa-arrow-left fa-2x"></i>
         </a>
         <h1 class="header__title">Best Friend</h1>
@@ -44,11 +44,22 @@
       <ul class="chat__messages">
         <span class="chat__timestamp">Friday, Jan 11,2019</span>
         <li class="incoming-message message">
-          <span class="message__timestamp"></span>
+          <!-- <span class="message__timestamp"></span> -->
           <img src="images/avarta.jpg" class="g-avatar message__avatar" />
           <div class="message__content">
+            <span class="message__author">Best Friend</span>
             <div class="message__bubble">
-              Congrats I love you
+              Congrats I Love you!
+            </div>
+          </div>
+          <span class="message__timestamp"></span>
+        </li>
+        <li class="incoming-message message">
+          <!-- <span class="message__timestamp"></span> -->
+          <span class="message__timestamp"></span>
+          <div class="message__content">
+            <div class="message__bubble">
+              Congrats I Love you!
             </div>
           </div>
         </li>
@@ -58,8 +69,21 @@
       <div class="chat__write-column">
         <i class="far fa-plus-square"></i>
       </div>
-      <div class="chat__write-column"></div>
-      <div class="chat__write-column"></div>
+      <div class="chat__write-column">
+        <input
+          type="text"
+          placeholder="Send message"
+          class="chat__write-input"
+        />
+      </div>
+      <div class="chat__write-column">
+        <span class="chat__write-icon">
+          <i class="far fa-smile-wink"></i>
+        </span>
+        <span class="chat__write-icon">
+          <i class="fas fa-microphone"></i>
+        </span>
+      </div>
     </div>
   </body>
 </html>
