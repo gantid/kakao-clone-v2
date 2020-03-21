@@ -1,0 +1,17 @@
+.status-bar {
+  display: flex;
+  justify-content: space-between;
+  /* 플렉스된 공간의 박스들을 양쪽으로 나누어 배치한다. */
+  margin-bottom: 30px;
+  /* 스테이터스 아래 마진을 넓혔다. */
+  opacity: 0.7;
+  /* 폰트에 투명도를 준다. */
+}
+
+.status-bar i {
+  font-size: 14px;
+}
+
+.status-bar .status-bar__battery-level {
+  margin-left: 5px;
+}
