@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* 아이템을 센터로 정렬한다. */
+  margin-bottom: 30px;
+}
+
+.header .header__title {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.header .header__icon {
+  font-size: 21px;
+  margin-left: 20px;
+  cursor: pointer;
+  /* 링크 될 때 커서 모양을 조정할 수 있다. 보통 포인터 */
+}
+
+.header .header__header-column {
+  display: flex;
+  align-items: center;
+}
+
+.header .header_back-btn {
+  font-size: 22px;
+  margin-right: 20px;
+}
