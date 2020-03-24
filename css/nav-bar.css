@@ -16,5 +16,30 @@
 }
 
 .nav i {
-  font-size: 20px;
+  font-size: 24px;
+}
+
+.nav .nav__list-link {
+  position: relative;
+  /* 뱃지의 부모를 지정해준다. */
+}
+
+.nav .nav__badge {
+  position: absolute;
+  /* 속해있는 렐러티브로부터 상속받도록 한다. 뱃지는 어디에 있든 렐러티브에 따라 붙는다.*/
+  top: -8px;
+  right: -5px;
+  /* 뱃지 위치 오프셋 값 */
+  font-size: 11px;
+  color: white;
+  background-color: red;
+  /* 배경 컬러 */
+  width: 15px;
+  height: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* 폰트의 위치를 가운데로 하기 위해서 */
+  border-radius: 50%;
+  /* 보더를 동그랗게 바꿔준다. */
 }
