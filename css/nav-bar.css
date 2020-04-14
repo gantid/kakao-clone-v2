@@ -43,3 +43,18 @@
   border-radius: 50%;
   /* 보더를 동그랗게 바꿔준다. */
 }
+
+@keyframes showNavBar {
+  from {
+    transform: translateY(80px);
+  }
+  to {
+    transform: none;
+  }
+}
+
+.nav {
+  transform: translateY(80px);
+  animation: showNavBar 0.5s ease-out forwards;
+  animation-delay: 0.3s;
+}
