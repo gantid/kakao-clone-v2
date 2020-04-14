@@ -94,15 +94,15 @@
   padding: 0px 20px;
 }
 
+.chats__chats {
+}
+
 .chat__write i {
   font-size: 22px;
 }
 
 .chat__write-column:nth-child(2) {
   width: 80%;
-}
-
-.chat__write-column input {
 }
 
 .chat__write:focus {
